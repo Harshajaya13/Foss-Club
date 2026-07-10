@@ -1,0 +1,191 @@
+# 🗺️ The Linux Roadmap: Find Your Route
+
+Now that you have read **The Spark** (File 1) and identified your path, it is time to look at your actual map. 
+
+You do not need to walk every road on this map. Find your starting point, focus on the topics in your chosen path, and build your skills layer by layer.
+
+---
+
+## 🧭 The Core Architecture
+
+Every learning path starts at the same root, builds a common foundation, and then branches out into career-specific skills.
+
+```mermaid
+graph TD
+    Start["🔰 Start Here"] --> Base["📦 Common Linux Foundation"]
+    
+    Base --> Path{Choose Your Route}
+    
+    Path --> Dev["💻 Software Developer"]
+    Path --> AI["🤖 AI & ML Engineer"]
+    Path --> Admin["🏗️ System Administrator"]
+    Path --> Custom["🎨 Customizer & Everyday"]
+    
+    Dev --> DevMaster["🚀 Dev Mastery"]
+    AI --> AIMaster["🧠 AI Mastery"]
+    Admin --> AdminMaster["🛡️ SysAdmin Mastery"]
+    Custom --> CustomMaster["✨ Desktop Mastery"]
+```
+
+---
+
+## 📦 Stage 1: The Common Foundation
+
+> [!IMPORTANT]
+> **No matter your career choice, everyone starts here.** 
+> You must get comfortable navigating the system using text. Spend 1-2 weeks here before branching out.
+
+| Skill Area | Core Commands / Concepts | Milestone |
+| :--- | :--- | :--- |
+| **📁 File System Navigation** | `pwd`, `ls`, `cd`, `mkdir`, `rmdir` | Navigate files without clicking folders. |
+| **🛠️ File Manipulation** | `touch`, `cp`, `mv`, `rm`, `cat`, `less` | Create, copy, move, and edit small files. |
+| **✏️ Text Editing** | `nano` *(Vim for now)* | Open, write to, and save configuration files. |
+| **🔑 Permissions** | `chmod`, `chown`, basic read/write/execute | Understand why `Permission Denied` happens and fix it. |
+| **📦 Package Management** | `apt install`, `dnf install` (depending on OS) | Install, update, and remove system software. |
+
+---
+
+## ⚡ Stage 2: Career-Specific Paths
+
+Choose the path you selected in File 1 and follow its steps.
+
+---
+
+### 🤖 1. The AI / ML Engineer Road
+
+```mermaid
+graph LR
+    Base["Base CLI"] --> Env["Environment Managers"]
+    Env --> System["System Integration"]
+    System --> Scaling["Large Scale Ops"]
+    
+    Env --> Python["Python & Pip"]
+    Env --> Conda["Conda & Venvs"]
+    
+    System --> CUDA["Nvidia GPU / CUDA"]
+    System --> Docker["Docker Containers"]
+    
+    Scaling --> Storage["Storage Management"]
+    Scaling --> Clusters["GPU Clusters"]
+```
+
+#### 🟢 Foundation
+*   **Concepts:** Installing Python environment managers, configuring virtual environments, managing dependency packages.
+*   **Skills to Learn:** `pip`, `venv`, `conda`, managing environmental variables (`PATH`, `CUDA_PATH`).
+
+#### 🟡 Intermediate
+*   **Concepts:** Running workloads in background screens, containerizing experiments, configuring GPU drivers.
+*   **Skills to Learn:** `screen` / `tmux`, `docker run` commands, checking GPU usage with `nvidia-smi`.
+
+#### 🔴 Advanced
+*   **Concepts:** Remote server execution, disk partition handling for huge datasets, clusters.
+*   **Skills to Learn:** SSH key forwarding, mounting external drives (`mount`, `fstab`), running jobs in headless environments.
+
+---
+
+### 💻 2. The Software Developer Road
+
+```mermaid
+graph LR
+    Base["Base CLI"] --> Tools["Dev Tooling"]
+    Tools --> Runtime["App Runtime"]
+    Runtime --> CI["Delivery & CI/CD"]
+    
+    Tools --> Git["Git Version Control"]
+    Tools --> SSH["SSH Remote Keys"]
+    
+    Runtime --> EnvVars["Environment Configs"]
+    Runtime --> Process["Background Tasks"]
+    
+    CI --> Containers["Dockerization"]
+    CI --> Pipelines["Runner Pipelines"]
+```
+
+#### 🟢 Foundation
+*   **Concepts:** Version control navigation, managing code directories, writing simple automation scripts.
+*   **Skills to Learn:** `git init/add/commit`, environment setup, basic shell scripts (`chmod +x script.sh`).
+
+#### 🟡 Intermediate
+*   **Concepts:** Secure remote servers, background execution, managing variables.
+*   **Skills to Learn:** SSH key generation, editing system environment configurations (`.bashrc` / `.zshrc`), managing active tasks (`ps`, `kill`, `top`).
+
+#### 🔴 Advanced
+*   **Concepts:** Pipeline runners, local container builds, deployment environments.
+*   **Skills to Learn:** Dockerfiles, writing automated build scripts, configuring pipeline configurations.
+
+---
+
+### 🏗️ 3. The System Administrator / DevOps Road
+
+```mermaid
+graph LR
+    Base["Base CLI"] --> Services["Service Control"]
+    Services --> Sec["Security & Ports"]
+    Sec --> Automation["Automation Code"]
+    
+    Services --> Systemd["Systemd Services"]
+    Services --> Logs["Journalctl & Logs"]
+    
+    Sec --> UFW["Firewalls & Ports"]
+    Sec --> Keys["SSH Hardening"]
+    
+    Automation --> Cron["Cron Automation"]
+    Automation --> IaC["Ansible & IaC"]
+```
+
+#### 🟢 Foundation
+*   **Concepts:** Controlling background software services, examining system logs, troubleshooting crashes.
+*   **Skills to Learn:** `systemctl start/stop/restart`, reading logs via `journalctl -u service_name`.
+
+#### 🟡 Intermediate
+*   **Concepts:** Local networking, securing connections, automation.
+*   **Skills to Learn:** User management (`useradd`, `usermod`), port diagnostics (`netstat`, `ss`), firewall controls (`ufw` or `iptables`).
+
+#### 🔴 Advanced
+*   **Concepts:** Automated provisioning, server hardening, scheduling.
+*   **Skills to Learn:** Shell scripting with arrays and loops, writing configuration automation (Ansible/Chef), configuring automatic backup tasks (`cron`).
+
+---
+
+### 🎨 4. The Customizer & Everyday Desktop User Road
+
+```mermaid
+graph LR
+    Base["Base CLI"] --> UI["UI Themes"]
+    UI --> WM["Window Managers"]
+    WM --> Config["Ricing Configs"]
+    
+    UI --> DE["GNOME / KDE / XFCE"]
+    UI --> Icons["Fonts & Icon Sets"]
+    
+    WM --> Tiling["i3 / Hyprland"]
+    WM --> Hotkeys["Keybindings"]
+    
+    ConfigDot["Dotfiles Git Repo"]
+    ConfigDot --> Config
+```
+
+#### 🟢 Foundation
+*   **Concepts:** Customizing standard desktop interfaces, application updates, visual configurations.
+*   **Skills to Learn:** Working with desktop package settings, keyboard shortcut binding, changing default programs.
+
+#### 🟡 Intermediate
+*   **Concepts:** Tiling window configurations, status bar setups, font management.
+*   **Skills to Learn:** Installing custom window managers (e.g. i3wm), editing configuration syntax, setting custom themes.
+
+#### 🔴 Advanced
+*   **Concepts:** Versioning configuration files, scripting system theme transitions, custom shell wrappers.
+*   **Skills to Learn:** Tracking settings in git repositories ("dotfiles"), styling desktop widgets, scripting layout setups.
+
+---
+
+## 🏆 How to Know You are Ready
+
+You don't need a certificate. Test yourself with these milestones:
+
+> [!TIP]
+> **Level 1 Milestone:** You can open your computer, create a script file, write a 3-line backup script, and run it purely inside the terminal without opening a graphical window.
+> 
+> **Level 2 Milestone:** When an application crashes, you do not reinstall it. Instead, you check system logs, identify the error, change the configuration file, and restart the service.
+> 
+> **Level 3 Milestone:** You can set up your entire environment on a fresh machine in under 10 minutes using a git repository of your custom settings and scripts.
