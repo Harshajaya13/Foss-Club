@@ -1,21 +1,37 @@
-# 🐧 Welcome.
+# 🐧 Linux is not hard.
 
-If you've just installed Linux...
+# You're just looking at the whole house.
 
-Or you're thinking about switching...
+Most beginners don't quit Linux because it's difficult.
 
-Or everyone keeps telling you:
-> **"Just learn Linux."**
-...you are in the right place.
+**They quit because they don't know where to start.**
 
-This repository wasn't created to teach hundreds of commands. It was created because most beginners don't quit Linux because it's hard. They quit because they don't know **where to start.**
+This repository exists to fix that.
 
-Linux isn't one skill. It is an ecosystem. You don't need to learn everything; you only need to learn what helps you achieve **your goal.**
+We don't teach you 200 commands. We teach you the **philosophy** first—so you understand *why* things work before you memorize *how*.
 
-This repository exists to help you find that path.
+You don't need to learn everything. You only need to learn what helps you achieve **your goal.**
 
-> [!IMPORTANT]
-> **"Clarity before Complexity. Don't learn everything—learn what matters for your journey."**
+---
+
+📂 **Your Journey:**
+🔥 [Spark](01%20-%20Understanding%20Linux/01%20-%20The%20Spark.md) → 🚲 [Survival](01%20-%20Understanding%20Linux/02%20-%20The%20Linux%20Survival%20Guide.md) → 🗺️ [Roadmap](02%20-%20Building%20Your%20Foundation/01%20-%20The%20Roadmap.md) → 🧱 [Foundation](02%20-%20Building%20Your%20Foundation/02%20-%20The%20Foundation.md) → 📁 [Filesystem Map](04%20-%20Root/00%20-%20The%20Filesystem%20Map.md) → 🛠️ [Toolkit](03%20-%20Developer%20Toolkit/00%20-%20Choosing%20Your%20Toolkit.md)
+
+---
+
+## 🎯 Why This Repo?
+
+Most tutorials teach commands. We teach **understanding.**
+
+*   ✅ **No memorization drills**
+*   ✅ **No command dumping**
+*   ✅ **No assuming you already know things**
+
+Instead:
+*   ✅ **Start with the problem**
+*   ✅ **Learn the concept**
+*   ✅ **Apply the command**
+*   ✅ **Verify success**
 
 ---
 
