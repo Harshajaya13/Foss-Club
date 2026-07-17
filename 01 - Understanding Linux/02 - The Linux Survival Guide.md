@@ -159,4 +159,4 @@ You understand the core safety rules, how to ask for help, where configuration f
 
 Now that you have your balance, it is time to map out your destination.
 
-Head over to **[The Linux Roadmap (01 - The Roadmap.md)](../Building%20Your%20Foundation/01%20-%20The%20Roadmap.md)** to locate your chosen career path and see the exact layers you need to build.
+Head over to **[The Linux Roadmap (01 - The Roadmap.md)](../02%20-%20Building%20Your%20Foundation/01%20-%20The%20Roadmap.md)** to locate your chosen career path and see the exact layers you need to build.

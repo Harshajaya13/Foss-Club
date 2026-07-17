@@ -307,4 +307,4 @@ Congratulations! You have completed the foundation. You can navigate, manage pac
 
 Your bicycle balance is solid. You are ready to build your custom developer toolkit.
 
-Head over to **[The Developer Toolkit (00 - Choosing Your Toolkit.md)](../Developer%20Toolkit/00%20-%20Choosing%20Your%20Toolkit.md)** to choose the terminal windows, shells, prompts, and networking tools that match your journey.
+Head over to **[The Developer Toolkit (00 - Choosing Your Toolkit.md)](../03%20-%20Developer%20Toolkit/00%20-%20Choosing%20Your%20Toolkit.md)** to choose the terminal windows, shells, prompts, and networking tools that match your journey.
