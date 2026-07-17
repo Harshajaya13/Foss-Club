@@ -301,27 +301,10 @@ These skills are more than enough to start building real software. Everything be
 
 ---
 
-## 🚀 Where do I go next?
+## 🚀 Where Do I Go Next?
 
-Once you finish Phase 2, you are ready to specialize. Pick a tool that matches your target career track and dive in:
+Now that you have built your hands-on Linux foundation, you are ready to split off and specialize.
 
-```mermaid
-graph TD
-    Foundation["📦 Linux Foundation (Phase 2)"] --> Choice{Choose Your Specialty}
-    
-    Choice --> Devops["☁️ DevOps and Cloud"]
-    Choice --> AI["🤖 AI and ML"]
-    Choice --> Custom["🎨 Customization"]
-    
-    Devops --> D1["Docker Containers"]
-    D1 --> D2["SSH and Remote Access"]
-    D2 --> D3["Kubernetes / Ansible"]
-    
-    AI --> A1["Nvidia GPU / CUDA"]
-    A1 --> A2["Python Virtualization"]
-    A2 --> A3["GPU Clusters"]
-    
-    Custom --> C1["Tiling Window Managers"]
-    C1 --> C2["Dotfiles Versioning"]
-    C2 --> C3["Hyprland / NixOS"]
-```
+Go back to **[The Linux Roadmap (Phase 1)](file:///home/harsha/projects/foss-club/phase1.md)**, locate your chosen path under **Stage 2**, and begin learning the career-specific tools (like Docker, CUDA, Window Managers, or Ansible) detailed there.
+
+Your foundation is solid. Go build something great! 🚀
