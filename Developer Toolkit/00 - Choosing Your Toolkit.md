@@ -66,6 +66,7 @@ Explore each section in detail to assemble your workspace:
 *   **11. [Package Managers](11%20-%20Package%20Managers.md)** — Understand native distro stores, sandboxed Flatpaks, and user space Homebrew packages.
 *   **12. [Containers](12%20-%20Containers.md)** — Encapsulate applications and prevent runtime conflicts using Docker, Docker Compose, Podman, and Distrobox.
 *   **13. [Build Tools](13%20-%20Build%20Tools.md)** — Compile human-readable source code into machine executables using GCC/Clang and Make/CMake compilers.
+*   **14. [Unix Philosophy](14%20-%20Unix%20Philosophy.md)** — Learn how to construct powerful stream-processing pipelines using pipes, redirections, and text transforms.
 
 ---
 
