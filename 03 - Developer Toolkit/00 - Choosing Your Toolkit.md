@@ -17,10 +17,10 @@ Before installing anything, understand what you are actually customizing. The en
 
 ```mermaid
 graph TD
-    User["👤 User"] --> Terminal["🖥️ Terminal Emulator<br>(Renders the window and text)"]
-    Terminal --> Shell["🐚 Shell Interpreter<br>(Executes your commands)"]
-    Shell --> Prompt["✨ Prompt Theme<br>(Styles your line prompt)"]
-    Prompt --> Apps["🛠️ CLI Tools and Utils<br>(Speeds up your tasks)"]
+    User["👤 User"] --> Terminal["🖥️ Terminal Emulator<br/>(Renders the window and text)"]
+    Terminal --> Shell["🐚 Shell Interpreter<br/>(Executes your commands)"]
+    Shell --> Prompt["✨ Prompt Theme<br/>(Styles your line prompt)"]
+    Prompt --> Apps["🛠️ CLI Tools and Utils<br/>(Speeds up your tasks)"]
 ```
 
 1.  **🖥️ Terminal Emulator:** The graphical window application you open (e.g., GNOME Terminal, Kitty, Alacritty). It handles fonts, colors, and graphics rendering.

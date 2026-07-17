@@ -60,12 +60,12 @@ In Windows, every drive is a letter (`C:\`, `D:\`). In Linux, **everything is a 
 
 ```mermaid
 graph TD
-    Root["📁 / (Root Directory)"] --> Home["📁 /home<br>(User Files)"]
-    Root --> Etc["📁 /etc<br>(System Settings)"]
-    Root --> Var["📁 /var<br>(App Logs & Data)"]
-    Root --> Bin["📁 /bin<br>(User Commands)"]
+    Root["📁 / (Root Directory)"] --> Home["📁 /home<br/>(User Files)"]
+    Root --> Etc["📁 /etc<br/>(System Settings)"]
+    Root --> Var["📁 /var<br/>(App Logs & Data)"]
+    Root --> Bin["📁 /bin<br/>(User Commands)"]
     
-    Home --> User["📁 /home/user<br>(Your Projects, Desktop, Downloads)"]
+    Home --> User["📁 /home/user<br/>(Your Projects, Desktop, Downloads)"]
 ```
 
 ### 🧭 Paths to Know
@@ -243,9 +243,9 @@ Linux is built for multi-user security. Every file and directory has access perm
 
 ```mermaid
 graph LR
-    Perm["File Permissions"] --> Owner["👤 Owner<br>(Owner permissions)"]
-    Perm --> Group["👥 Group<br>(Team permissions)"]
-    Perm --> Others["🌐 Others<br>(Everyone else)"]
+    Perm["File Permissions"] --> Owner["👤 Owner<br/>(Owner permissions)"]
+    Perm --> Group["👥 Group<br/>(Team permissions)"]
+    Perm --> Others["🌐 Others<br/>(Everyone else)"]
 ```
 
 Each category has three possible actions:
@@ -275,8 +275,8 @@ Every application or command you run is a **Process** tracked by a unique ID cal
 
 ```mermaid
 graph TD
-    Start["Run Program"] --> Foreground["Foreground Process<br>(Locks Terminal)"]
-    Start --> Background["Background Process<br>(Runs in Secret)"]
+    Start["Run Program"] --> Foreground["Foreground Process<br/>(Locks Terminal)"]
+    Start --> Background["Background Process<br/>(Runs in Secret)"]
     
     Foreground --> Stop["Stop Process (Ctrl + C)"]
     Background --> Monitor["Monitor Process (htop / ps)"]

@@ -62,7 +62,7 @@ graph TD
 ├── 02 - Building Your Foundation/
 │   ├── 01 - The Roadmap.md
 │   └── 02 - The Foundation.md
-├── 03 - Developer Toolkit/     # Guides for Git, Docker, SSH, etc.
+├── 03 - Developer Toolkit/     # Practical guides for Git, tmux, zoxide, and other essential terminal tools.
 ├── 04 - Root/                  # Explains root directories (/etc, /usr, /proc)
 └── README.md                   # Welcome page and philosophy
 ```
@@ -71,13 +71,14 @@ graph TD
 
 ## 🗺️ Start Your Journey Here
 
-We've broken this repository into five simple steps designed to build your understanding layer by layer:
+We've broken this repository into six simple steps designed to build your understanding layer by layer:
 
 1.  **🔥 [The Spark (01 - The Spark.md)](01%20-%20Understanding%20Linux/01%20-%20The%20Spark.md)** — *Start here.* We answer the common questions beginners actually have (What is Linux? Can I run Windows apps? Why should I switch?) and help you choose your identity.
 2.  **🚲 [The Survival Guide (02 - The Linux Survival Guide.md)](01%20-%20Understanding%20Linux/02%20-%20The%20Linux%20Survival%20Guide.md)** — The basic command line rules of system survival. Learn how to prevent system crashes and read error messages.
 3.  **🗺️ [The Roadmap (01 - The Roadmap.md)](02%20-%20Building%20Your%20Foundation/01%20-%20The%20Roadmap.md)** — Once you've chosen your path, find your career track here. We tell you exactly what you need to focus on and what you can safely ignore.
 4.  **🧱 [The Foundation (02 - The Foundation.md)](02%20-%20Building%20Your%20Foundation/02%20-%20The%20Foundation.md)** — The hands-on workbook. Learn the 10 core capabilities (System Control, Navigation, Git, Permissions, Processes) that every Linux user shares.
 5.  **📁 [The Filesystem Map (00 - The Filesystem Map.md)](04%20-%20Root/00%20-%20The%20Filesystem%20Map.md)** — Decode the entire filesystem tree layout, sorting standard folders into 5 visual safety layers.
+6.  **🛠️ [Choosing Your Toolkit (00 - Choosing Your Toolkit.md)](03%20-%20Developer%20Toolkit/00%20-%20Choosing%20Your%20Toolkit.md)** — Choose your tools. Practical guides for terminals (Kitty), custom shells (Zsh/Starship), fast search (ripgrep/fzf), networking (SSH), containers (Docker), package managers, build tools, and Git workflows.
 
 ```mermaid
 graph TD

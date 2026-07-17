@@ -23,9 +23,9 @@ Depending on your Linux distribution and usage, you will interact with three mai
 
 ```mermaid
 graph TD
-    PM["📦 Package Managers"] --> Native["🟢 System Native<br>(Built-in Distro Tools)"]
-    PM --> Universal["🔵 Universal Sandboxed<br>(Runs isolated anywhere)"]
-    PM --> User["🟡 User Space / Developer<br>(Cross-platform tools)"]
+    PM["📦 Package Managers"] --> Native["🟢 System Native<br/>(Built-in Distro Tools)"]
+    PM --> Universal["🔵 Universal Sandboxed<br/>(Runs isolated anywhere)"]
+    PM --> User["🟡 User Space / Developer<br/>(Cross-platform tools)"]
 
     Native --> apt["apt (Ubuntu/Debian)"]
     Native --> dnf["dnf (Fedora/RHEL)"]
