@@ -46,7 +46,7 @@ graph TD
     subgraph This Repository
         R1["🧠 Understand Linux"] --> R2["🗺️ Choose Your Path"]
         R2 --> R3["🧱 Build Foundations"]
-        R3 --> R4["🚀 Specialize & Build"]
+        R3 --> R4["🚀 Specialize and Build"]
     end
 ```
 
@@ -144,5 +144,8 @@ We do not aim to create Linux experts overnight. We aim to help students discove
 If this repository helped you understand Linux, **don't let the knowledge stop with you.** 
 
 This is not a static notes archive—it is a community project. Improve these notes, fix mistakes, add explanations, suggest resources, or help another beginner in our issues. That is how the open-source community grows. 
+
+> [!TIP]
+> **Want to Contribute?** Check out our **[Contributing Guide (CONTRIBUTING.md)](CONTRIBUTING.md)** to see how you can help fix typos, add tool guides, or make this repository even better for beginners!
 
 > **Every learner can become a teacher.** 🕯️🤝🚀

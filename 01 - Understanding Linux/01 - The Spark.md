@@ -58,7 +58,7 @@ This is where many beginners have their first surprise. Linux is almost everywhe
 ```mermaid
 graph LR
     Linux["🐧 Linux"] --> Everyday["📱 Everyday Devices"]
-    Linux --> Enterprise["☁️ Enterprise & Web"]
+    Linux --> Enterprise["☁️ Enterprise and Web"]
     Linux --> Advanced["🚀 Pioneering Tech"]
 
     Everyday --> Everyday1["Android Phones"]
@@ -71,7 +71,7 @@ graph LR
 
     Advanced --> Advanced1["AI / ML Systems"]
     Advanced --> Advanced2["Supercomputers"]
-    Advanced --> Advanced3["Spacecraft & Research"]
+    Advanced --> Advanced3["Spacecraft and Research"]
 ```
 
 When people hear "Linux," they often imagine a terminal window. In reality, you already interact with Linux every single day through your phone, the websites you visit, and the smart devices around you.

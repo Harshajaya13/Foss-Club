@@ -62,7 +62,7 @@ In Windows, every drive is a letter (`C:\`, `D:\`). In Linux, **everything is a 
 graph TD
     Root["📁 / (Root Directory)"] --> Home["📁 /home<br/>(User Files)"]
     Root --> Etc["📁 /etc<br/>(System Settings)"]
-    Root --> Var["📁 /var<br/>(App Logs & Data)"]
+    Root --> Var["📁 /var<br/>(App Logs and Data)"]
     Root --> Bin["📁 /bin<br/>(User Commands)"]
     
     Home --> User["📁 /home/user<br/>(Your Projects, Desktop, Downloads)"]

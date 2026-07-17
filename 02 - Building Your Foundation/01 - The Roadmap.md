@@ -33,8 +33,8 @@ graph TD
     Path --> Min["🟢 Everyday Minimalist"]
     Path --> Cust["🎨 Customizer"]
     Path --> Dev["💻 Software Developer"]
-    Path --> AI["🤖 AI & ML Engineer"]
-    Path --> Admin["🏗️ System Administrator & DevOps"]
+    Path --> AI["🤖 AI and ML Engineer"]
+    Path --> Admin["🏗️ System Administrator and DevOps"]
     Path --> Eng["⚙️ Engine Builder (Kernel)"]
 ```
 
@@ -92,7 +92,7 @@ graph LR
 ```mermaid
 graph LR
     Base["Base CLI"] --> WM["Window Managers"]
-    WM --> Hotkeys["Keybindings & Bars"]
+    WM --> Hotkeys["Keybindings and Bars"]
     Hotkeys --> Dotfiles["Dotfiles Versioning"]
 ```
 
@@ -116,7 +116,7 @@ graph LR
 graph LR
     Base["Base CLI"] --> Tools["Dev Tooling"]
     Tools --> Runtime["App Runtime"]
-    Runtime --> CI["Delivery & CI/CD"]
+    Runtime --> CI["Delivery and CI/CD"]
     
     Tools --> Git["Git Version Control"]
     Tools --> SSH["SSH Remote Keys"]
@@ -150,8 +150,8 @@ graph LR
     Env --> System["System Integration"]
     System --> Scaling["Large Scale Ops"]
     
-    Env --> Python["Python & Pip"]
-    Env --> Conda["Conda & Venvs"]
+    Env --> Python["Python and Pip"]
+    Env --> Conda["Conda and Venvs"]
     
     System --> CUDA["Nvidia GPU / CUDA"]
     System --> Docker["Docker Containers"]
@@ -179,17 +179,17 @@ graph LR
 ```mermaid
 graph LR
     Base["Base CLI"] --> Services["Service Control"]
-    Services --> Sec["Security & Ports"]
+    Services --> Sec["Security and Ports"]
     Sec --> Automation["Automation Code"]
     
     Services --> Systemd["Systemd Services"]
-    Services --> Logs["Journalctl & Logs"]
+    Services --> Logs["Journalctl and Logs"]
     
-    Sec --> UFW["Firewalls & Ports"]
+    Sec --> UFW["Firewalls and Ports"]
     Sec --> Keys["SSH Hardening"]
     
     Automation --> Cron["Cron Automation"]
-    Automation --> IaC["Ansible & IaC"]
+    Automation --> IaC["Ansible and IaC"]
 ```
 
 #### 🟢 Foundation
@@ -210,7 +210,7 @@ graph LR
 
 ```mermaid
 graph LR
-    Base["Base CLI"] --> Memory["C & Memory Systems"]
+    Base["Base CLI"] --> Memory["C and Memory Systems"]
     Memory --> Compilation["Kernel Compile"]
     Compilation --> Drivers["Device Driver Dev"]
 ```
