@@ -5,9 +5,9 @@
 > [!IMPORTANT]
 > **"Clarity before Complexity. Don't learn everything—learn what matters for your journey."**
 
-When you see screenshots of veteran developer environments on GitHub or Reddit, they look incredibly cool—custom command lines, colored terminal panels, and fast file-search utilities. 
+Now that you have the skills every Linux user shares, you are ready to assemble your custom tools.
 
-But you do **not** need to install all of these tools on day one. A tool is only useful when it solves an active bottleneck in your coding flow. This guide helps you understand the different layers of the terminal ecosystem and select the exact tools you need.
+A tool is only useful when it solves an active bottleneck in your coding flow. This guide helps you understand the different layers of the terminal ecosystem and select the exact tools (terminal windows, custom shells, prompts, and search tools) you need to build your target workspace.
 
 ---
 

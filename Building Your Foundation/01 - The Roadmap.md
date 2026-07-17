@@ -1,6 +1,6 @@
 # 🗺️ The Linux Roadmap: Find Your Route
 
-Now that you have read [The Spark (File 1)](../Understanding%20Linux/01%20-%20The%20Spark.md) and identified your path, it is time to look at your actual map. 
+Now that you know how not to break your system, it is time to set your route. 
 
 > [!IMPORTANT]
 > **"Clarity before Complexity. Don't learn everything—learn what matters for your journey."**
@@ -239,3 +239,13 @@ You don't need a certificate. Test yourself with these milestones:
 > **Level 2 Milestone:** When an application crashes, you do not reinstall it. Instead, you check system logs, identify the error, change the configuration file, and restart the service.
 > 
 > **Level 3 Milestone:** You can set up your entire environment on a fresh machine in under 10 minutes using a git repository of your custom settings and scripts.
+
+---
+
+## 🚀 Now you know your destination...
+
+You have selected your path, mapped out your target milestones, and identified the custom tools you will need to learn. 
+
+But whether you are building AI clusters, coding web applications, or designing a customized desktop, **everyone starts on the same foundation.** You must get comfortable navigating the filesystem and manipulating files.
+
+Head over to **[The Linux Foundation (02 - The Foundation.md)](02%20-%20The%20Foundation.md)** to start hands-on learning for these common skills.

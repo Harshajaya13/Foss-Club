@@ -151,9 +151,6 @@ To clear the path ahead, ask yourself: **"What do I want Linux to help me do?"**
 *   **💻 "I just want a fast, customized desktop."**
     *   *Your focus:* Desktop environments, basic terminal navigation, customization themes.
 
-> [!NOTE]
-> **Found your path?** Head over to **[The Linux Survival Guide (File 2)](02%20-%20The%20Linux%20Survival%20Guide.md)** to learn the core terminal safety rules and self-help tools before mapping your career path.
-
 ---
 
 ## 🌌 8. The Philosophy
@@ -162,3 +159,13 @@ To clear the path ahead, ask yourself: **"What do I want Linux to help me do?"**
 > **Linux isn't difficult because it's complex. It feels difficult because beginners see the entire ecosystem before choosing their own trail.**
 >
 > Our goal is not to force you to learn everything. Our goal is to give you a clear map, help you find your direction, and help you take the first steps with confidence.
+
+---
+
+## 🚀 Now that Linux isn't scary anymore...
+
+You understand why Linux exists, what it does, and how it divides into smaller worlds. You have even caught a glimpse of which path matches your destination. 
+
+But before you begin traveling, you need to learn how to keep yourself safe on the road.
+
+Head over to **[The Linux Survival Guide (02 - The Linux Survival Guide.md)](02%20-%20The%20Linux%20Survival%20Guide.md)** to learn the core safety rules and self-help tools that will keep you from breaking your system.
