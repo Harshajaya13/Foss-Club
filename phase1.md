@@ -3,7 +3,9 @@
 Now that you have read [The Spark (File 1)](file:///home/harsha/projects/foss-club/spark.md) and identified your path, it is time to look at your actual map. 
 
 > [!IMPORTANT]
-> **"Linux is not one huge thing. It's a collection of smaller worlds. You only need to enter the world that matches your goal."**
+> **"Clarity before Complexity. Don't learn everything—learn what matters for your journey."**
+> 
+> *"Linux is not one huge thing. It's a collection of smaller worlds. You only need to enter the world that matches your goal."*
 
 ### 🔥 Igniting the Fire: Our Philosophy
 

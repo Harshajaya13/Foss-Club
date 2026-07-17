@@ -2,7 +2,9 @@
 ### *Before You Learn Linux, Understand It.*
 
 > [!IMPORTANT]
-> **"Linux is not one huge thing. It's a collection of smaller worlds. You only need to enter the world that matches your goal."**
+> **"Clarity before Complexity. Don't learn everything—learn what matters for your journey."**
+> 
+> *"Linux is not one huge thing. It's a collection of smaller worlds. You only need to enter the world that matches your goal."*
 
 ### 🔥 Igniting the Fire: Our Philosophy
 
