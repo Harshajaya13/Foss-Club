@@ -53,6 +53,11 @@ Here are the primary terminal emulators developers choose, from standard default
 *   **Why it exists:** It combines the GPU rendering speed of Alacritty with advanced features like image rendering, hyper-links support, and customizable multiplexing.
 *   **Good for:** Advanced users who love coding their configurations.
 
+### 5. Termux (Linux on Android Devices)
+*   **What it is:** A terminal emulator and Linux environment shell package for Android.
+*   **Why it exists:** It lets you run a fully-functioning Linux command line on your phone or tablet without needing to root your Android device. It uses its own package manager (`pkg`) to install Git, Python, Node, and ssh tools directly.
+*   **Good for:** Beginners who want to practice Linux command navigation, SSH setups, and development scripts anywhere using their mobile device.
+
 ---
 
 ## 🛠️ Concepts to Know

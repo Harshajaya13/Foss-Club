@@ -56,3 +56,12 @@ Furthermore, when moving codebases or logs, you need a way to zip and compress d
         ```bash
         tar -xzvf project.tar.gz
         ```
+
+### 5. Symlinks (Virtual Pointers)
+*   **Why it exists:** Sometimes you need a file or folder to exist in multiple places at once without making duplicates (which get out of sync). A **Symbolic Link (Symlink)** is a shortcut pointer that points to another file or directory on your system.
+*   **Good for:** Managing configuration files ("dotfiles") in a single Git repository and linking them to their target setup folders (like `~/.config`).
+*   **Example:**
+    ```bash
+    # Create a symlink named "settings.json" pointing to a project configuration file
+    ln -s /path/to/original/config.json ~/settings.json
+    ```
