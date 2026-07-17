@@ -164,7 +164,7 @@ Instead of passing zip files back and forth, developers use **Git** to track fil
     ```bash
     git push origin main
     git pull origin main
-```
+    ```
 
 ---
 
