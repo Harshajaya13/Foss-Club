@@ -43,4 +43,6 @@ This guide details your personal sandbox space and shows you where external stor
 ---
 
 > [!TIP]
-> **Next Step:** Head over to **[04 - Software & Applications](04%20-%20Software%20%26%20Applications.md)** to see where applications and manual compilers store software.
+> **Next Step:** Head over to **[04 - Software & Applications (04 - Software & Applications.md)](04%20-%20Software%20%26%20Applications.md)** to see where applications and manual compilers store software.
+>
+> ⬅️ Or return to **[The Filesystem Map (00 - The Filesystem Map.md)](00%20-%20The%20Filesystem%20Map.md)**.

@@ -65,3 +65,19 @@ Here are the primary terminal emulators developers choose, from standard default
 *   **Hardware (GPU) Acceleration:** Traditional terminals render text using the CPU, which can lag when displaying continuous streams of data. GPU-accelerated terminals render text at your monitor's full refresh rate (e.g., 144Hz), making inputs feel instantaneous.
 *   **Configuration Files:** While default terminals are customized through graphical click-menus, developer terminals (like Kitty or Alacritty) are configured using text files (e.g., `kitty.conf`, `alacritty.toml`). This allows you to backup, version, and share your exact terminal settings on GitHub.
 *   **Font Glyphs (Nerd Fonts):** Terminals need special fonts to render custom symbols (Git branch arrows, system status checkmarks). Installing a **Nerd Font** (like JetBrainsMono Nerd Font) is required for modern developer terminal custom themes.
+
+---
+
+> [!TIP]
+> **Just Tell Me What to Use:**
+> *   If you just installed Linux → Use your **default terminal** (GNOME Terminal). It works perfectly fine out of the box.
+> *   If you want something faster and prettier → Install **Kitty**. It's the sweet spot of speed + features.
+> *   If you want to practice Linux on your phone → Install **Termux** on Android.
+>
+> You can always switch later. The terminal is just a window—your real skills live in the shell running inside it.
+
+---
+
+## 🚀 Next Step
+
+Head over to **[Shells (02 - Shells.md)](02%20-%20Shells.md)** to understand the engine running inside your terminal window.

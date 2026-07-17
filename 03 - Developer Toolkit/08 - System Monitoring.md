@@ -9,11 +9,7 @@
 
 ## ❓ The Problem: *Visualizing system metrics without desktop managers*
 
-On headless servers, remote cloud instances, or developer workstations, you need to understand resource bounds:
-*   *Which application is consuming 99% of my CPU?*
-*   *Do I have memory leaks filling up my RAM?*
-*   *Why did my Nvidia GPU training run run out of memory (OOM)?*
-*   *What folder is filling up my disk storage partition?*
+On headless servers, remote cloud instances, or developer workstations, you need to understand resource bounds. Your ML training crashes at 3 AM. Was it RAM? GPU memory? CPU overheating? A disk that silently filled up? Without these tools, you are guessing. With them, you know in seconds.
 
 Linux tracks these metrics inside virtual system files, but reading them raw is challenging. System monitoring utilities translate these statistics into live dashboards.
 
@@ -47,3 +43,9 @@ Here are the primary system resource diagnostics utilities developers run:
 
 ### 5. `duf` (Disk Usage Utility)
 *   **Why it exists:** A color-coded alternative to `df`. It displays system storage partitions, mount points, and usage percentages.
+
+---
+
+## 🚀 Next Step
+
+Head over to **[Terminal Multiplexers (09 - Terminal Multiplexers.md)](09%20-%20Terminal%20Multiplexers.md)** to learn how to keep remote server tasks running in the background and manage terminal window grids.

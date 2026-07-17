@@ -52,3 +52,5 @@ Linux handles hardware connections, system information, and active processes by 
 
 > [!TIP]
 > **Next Step:** You have completed the filesystem tour! Head back to **[The Linux Foundation (02 - Building Your Foundation/02 - The Foundation.md)](../02%20-%20Building%20Your%20Foundation/02%20-%20The%20Foundation.md)** to continue your hands-on command practice.
+>
+> ⬅️ Or return to **[The Filesystem Map (00 - The Filesystem Map.md)](00%20-%20The%20Filesystem%20Map.md)**.

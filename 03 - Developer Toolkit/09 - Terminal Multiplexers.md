@@ -9,11 +9,7 @@
 
 ## ❓ The Problem: *Connection drops and terminal grid limitations*
 
-If you are logged into a remote server via SSH and running a script that takes 5 hours to finish:
-*   *What happens if your home internet drops for 2 seconds?*
-*   *What happens if you accidentally close your laptop lid?*
-
-The shell session is terminated, and your script dies immediately. 
+You are SSH'd into a remote server running a 5-hour AI training job. Your home WiFi drops for 2 seconds. Without a multiplexer, the shell session dies and your script is killed instantly — 5 hours wasted.
 
 Furthermore, opening 5 terminal windows just to see logs, edit config files, and run local code creates desktop clutter. 
 
@@ -74,3 +70,9 @@ A **Terminal Multiplexer** solves both problems. It splits a single terminal win
     ```bash
     tmux ls
     ```
+
+---
+
+## 🚀 Next Step
+
+Head over to **[Networking & Remote Access (10 - Networking & Remote Access.md)](10%20-%20Networking%20%26%20Remote%20Access.md)** to learn how to connect to cloud servers, transfer files, and diagnose network ports.

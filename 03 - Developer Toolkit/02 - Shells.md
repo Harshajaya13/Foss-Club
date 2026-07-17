@@ -40,6 +40,12 @@ Different shells provide different capabilities—from basic command Execution t
 
 ---
 
+> [!TIP]
+> **Our Recommendation:**
+> Start with **Bash** (it's already installed). Once you're comfortable, switch to **Zsh + Oh-My-Zsh** for autocomplete and git helpers. Fish is beautiful but its scripting syntax is different from Bash, which can confuse you when following online tutorials.
+
+---
+
 ## ⚙️ How Shells Configure: Startup Files
 
 Every time you open a terminal window, your shell loads configuration scripts located in your home folder. Adding custom aliases (command shortcuts), exports, and theme setups to these files runs them automatically when the terminal starts.
@@ -81,3 +87,9 @@ Now, simply typing `update` runs the entire system update script!
     ```bash
     chsh -s $(which zsh)
     ```
+
+---
+
+## 🚀 Next Step
+
+Head over to **[Building Your Developer Environment (03 - Developer Environment.md)](03%20-%20Developer%20Environment.md)** to connect your terminal, shell, fonts, and prompt customizer into a working setup.

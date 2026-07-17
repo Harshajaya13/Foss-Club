@@ -51,4 +51,6 @@ If you want to configure your network settings, manage database accounts, check 
 ---
 
 > [!TIP]
-> **Next Step:** Head over to **[03 - User Files & Mounts](03%20-%20User%20Files%20%26%20Mounts.md)** to see where user accounts and external USB drives are stored.
+> **Next Step:** Head over to **[03 - User Files & Mounts (03 - User Files & Mounts.md)](03%20-%20User%20Files%20%26%20Mounts.md)** to see where user accounts and external USB drives are stored.
+>
+> ⬅️ Or return to **[The Filesystem Map (00 - The Filesystem Map.md)](00%20-%20The%20Filesystem%20Map.md)**.

@@ -67,6 +67,15 @@ Download and run the Starship prompt installer:
 curl -sS https://starship.rs/install.sh | sh
 ```
 
+> [!NOTE]
+> **Wait—didn't the Survival Guide say not to pipe scripts from the internet?** 
+> Yes! Starship is a trusted, open-source project with millions of users. However, if you want to follow the safety rule strictly, you can download the script first, inspect it, and then execute it:
+> ```bash
+> curl -sS https://starship.rs/install.sh -o install.sh
+> cat install.sh  # Inspect the file content
+> sh install.sh   # Run it once you verify it is safe
+> ```
+
 ### Step 6: Connect Starship to Your Shell Configuration
 For Starship to render your prompt, you must tell Zsh (or Bash) to initialize it on startup.
 *   For **Zsh**, edit your configuration:
@@ -93,3 +102,9 @@ Close your terminal window and open **Kitty**. You should see:
 1.  Your system metrics displayed visual-style by **Fastfetch**.
 2.  A clean, responsive command prompt line styled by **Starship** with correct developer icons.
 3.  No broken rectangle placeholder characters!
+
+---
+
+## 🚀 Next Step
+
+Head over to **[Prompt Customization (04 - Prompt Customization.md)](04%20-%20Prompt%20Customization.md)** to style your prompt with Git branch indicators and system info.

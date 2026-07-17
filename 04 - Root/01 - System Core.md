@@ -41,4 +41,6 @@ In Windows, program executables are scattered inside different subdirectories un
 ---
 
 > [!TIP]
-> **Next Step:** Head over to **[02 - Configuration & Logs](02%20-%20Configuration%20%26%20Logs.md)** to learn where Linux stores settings and records system logs.
+> **Next Step:** Head over to **[02 - Configuration & Logs (02 - Configuration & Logs.md)](02%20-%20Configuration%20%26%20Logs.md)** to learn where Linux stores settings and records system logs.
+>
+> ⬅️ Or return to **[The Filesystem Map (00 - The Filesystem Map.md)](00%20-%20The%20Filesystem%20Map.md)**.

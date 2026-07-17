@@ -50,10 +50,12 @@ Furthermore, when moving codebases or logs, you need a way to zip and compress d
         ```
     *   *Create a tarball archive:*
         ```bash
+        # -c = Create archive | -z = Compress with gzip | -v = Verbose (show progress) | -f = Filename follows
         tar -czvf project.tar.gz project_folder/
         ```
     *   *Extract a tarball:*
         ```bash
+        # -x = Extract archive | -z = Decompress gzip | -v = Verbose | -f = Filename follows
         tar -xzvf project.tar.gz
         ```
 
@@ -65,3 +67,9 @@ Furthermore, when moving codebases or logs, you need a way to zip and compress d
     # Create a symlink named "settings.json" pointing to a project configuration file
     ln -s /path/to/original/config.json ~/settings.json
     ```
+
+---
+
+## 🚀 Next Step
+
+Head over to **[System Monitoring (08 - System Monitoring.md)](08%20-%20System%20Monitoring.md)** to learn how to track processor loads, memory leaks, GPU statuses, and storage usage.

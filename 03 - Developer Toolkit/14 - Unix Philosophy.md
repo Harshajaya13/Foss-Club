@@ -127,3 +127,9 @@ Want to check if a specific program is running, count how many instances exist, 
 ps aux | grep "python" | wc -l > active_python_count.txt
 ```
 This is the soul of Unix: **small tools collaborating to solve complex tasks.**
+
+---
+
+## 🚀 Next Step
+
+Head over to **[Git Workflows (15 - Git Workflows.md)](15%20-%20Git%20Workflows.md)** to master the local-to-cloud commit cycle to secure and share your codebase.

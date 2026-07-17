@@ -59,6 +59,20 @@ rg "connect_db"
     fzf
     ```
 
+### 4. `eza` (Prettier `ls`)
+A modern replacement for `ls` that adds colors, file icons, git status flags, and tree layouts:
+```bash
+# List all files (including hidden ones) with metadata and git flags
+eza -la --git --icons
+```
+
+### 5. `fd` (Simpler `find`)
+A fast, user-friendly alternative to `find` that ignores hidden files and `.gitignore` entries by default:
+```bash
+# Find all Python files in the current project
+fd ".py"
+```
+
 ---
 
 ## 🔗 The Power Blend: Command Pipes
@@ -71,3 +85,9 @@ For example, if you want to find a file using `fzf` and immediately open it in N
 # Search for files interactively and edit the selected one
 nano $(fzf)
 ```
+
+---
+
+## 🚀 Next Step
+
+Head over to **[Text Processing (06 - Text Processing.md)](06%20-%20Text%20Processing.md)** to learn how to search, slice, modify, and process text streams directly from the command line.

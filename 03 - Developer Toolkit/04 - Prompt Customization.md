@@ -56,23 +56,29 @@ Starship is controlled by a single configuration file located in your home direc
 Here is a simple configuration example that shows how you can toggle modules and change prompt symbols:
 
 ```toml
-# Don't create newlines on prompt commands
+# Don't add extra blank lines between prompts
 add_newline = false
 
 # Custom directory layout format
 [directory]
 style = "bold blue"
-truncate_to_repo = true
+truncate_to_repo = true  # Only show folder name relative to git root, not full path
 
 # Custom Git branch indicator
 [git_branch]
-symbol = "🌿 "
+symbol = "🌿 "           # Show this emoji before the branch name
 style = "bold green"
 
 # Custom Python virtual environment display
 [python]
-symbol = "🐍 "
-pyenv_version_name = true
+symbol = "🐍 "           # Show this emoji when a Python virtual environment is active
+pyenv_version_name = true  # Display the Python environment version name
 ```
 
 After modifying the configuration file, changes are applied instantly to any open terminal screen!
+
+---
+
+## 🚀 Next Step
+
+Head over to **[Navigation & Search (05 - Navigation & Search.md)](05%20-%20Navigation%20%26%20Search.md)** to speed up how you move between folders and search code.

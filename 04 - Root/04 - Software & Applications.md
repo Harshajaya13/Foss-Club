@@ -42,4 +42,6 @@ When you install a tool, its executable binary goes into a "binary" folder, its 
 ---
 
 > [!TIP]
-> **Next Step:** Head over to **[05 - Virtual Systems](05%20-%20Virtual%20Systems.md)** to explore how the Linux kernel interfaces with active hardware and running memory.
+> **Next Step:** Head over to **[05 - Virtual Systems (05 - Virtual Systems.md)](05%20-%20Virtual%20Systems.md)** to explore how the Linux kernel interfaces with active hardware and running memory.
+>
+> ⬅️ Or return to **[The Filesystem Map (00 - The Filesystem Map.md)](00%20-%20The%20Filesystem%20Map.md)**.

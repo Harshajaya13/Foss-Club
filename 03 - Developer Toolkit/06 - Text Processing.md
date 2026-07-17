@@ -32,13 +32,18 @@ These tools process text streams line-by-line, passing their outputs to each oth
 
 ### 2. `sed` and `awk` (Stream Editors)
 *   **Why it exists:** They are lightweight, scriptable editors designed to find, replace, and print specific columns of text without opening a graphical window.
+*   **When would I actually use this?** You probably won't use these on day one. But the moment you need to rename a variable across 50 configuration environment files, or extract specific usernames from a system-wide pass list, these two commands will save you hours of manual clicking and editing.
 *   **Examples:**
     *   *Search & Replace (`sed`):* Replace every instance of "development" with "production" in a file:
         ```bash
+        # -i               → Edit the file in-place (directly modify it instead of printing to screen)
+        # s/old/new/g      → s = substitute, old = search term, new = replacement, g = do it globally (all matches per line)
         sed -i 's/development/production/g' config.env
         ```
     *   *Column Extraction (`awk`):* Print only the first column (usernames) of your system pass list:
         ```bash
+        # -F:              → Use ":" as the field separator (the passwd file fields are separated by colons)
+        # {print $1}       → Print only the first column (the username)
         cat /etc/passwd | awk -F: '{print $1}'
         ```
 
@@ -61,3 +66,9 @@ These tools process text streams line-by-line, passing their outputs to each oth
     # Find all backup files and delete them instantly
     find . -name "*.bak" | xargs rm
     ```
+
+---
+
+## 🚀 Next Step
+
+Head over to **[File Utilities (07 - File Utilities.md)](07%20-%20File%20Utilities.md)** to learn how to inspect file contents, view directory structures, and package files from the terminal.

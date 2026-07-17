@@ -207,6 +207,8 @@ alias gs="git status"
 
 ### ❓ The Problem: *How do I modify configuration files directly from the command line?*
 
+Imagine you just installed Zsh, but your terminal still opens Bash. The fix? Edit one line in a hidden config file. You don't need VS Code for this—you need a 2-second terminal editor.
+
 You do not need to launch a heavy visual editor like VS Code just to edit a 2-line config file. You can do it directly within your terminal shell.
 
 *   **🟢 Nano:** A simple, notepad-like terminal editor. All actions (save, quit) are listed as shortcuts at the bottom of the screen.
@@ -222,6 +224,8 @@ nano ~/.bashrc
 ## 🔐 8. Permissions and Ownership
 
 ### ❓ The Problem: *Why do I get "Permission Denied" errors, and how do I fix them?*
+
+You wrote a Python script called `run.py`. You type `./run.py` and Linux says `Permission denied`. Nothing is broken—Linux just doesn't know you want this file to be runnable. One command fixes it.
 
 Linux is built for multi-user security. Every file and directory has access permissions split into three categories:
 
@@ -252,6 +256,8 @@ Each category has three possible actions:
 ## ⚙️ 9. Process Management
 
 ### ❓ The Problem: *What happens when programs run in the background, and how do I stop frozen ones?*
+
+Ever had a program freeze on Windows and you opened Task Manager? Linux has the same thing, but faster—you do it from the terminal.
 
 Every application or command you run is a **Process** tracked by a unique ID called a **PID (Process ID)**.
 
@@ -286,7 +292,9 @@ graph TD
 ### ❓ The Problem: *How do I handle advanced workflows without writing complex software from scratch?*
 
 > [!NOTE]
-> These tools solve problems that appear only after you have built real projects. Don't try to memorize them today—just remember they exist.
+> **Don't try to learn these today.** Bookmark this section. When you hit a real problem—like needing to search 500 log files or schedule a backup—come back here and pick the tool that solves it.
+
+These tools solve problems that appear only after you have built real projects. Don't try to memorize them today—just remember they exist.
 
 *   **🔍 grep:** Search text files for specific keywords instantly (e.g., searching log folders).
 *   **📁 find:** Search for directories and files based on name, size, or creation date.

@@ -13,6 +13,9 @@ Computers do not run Python scripts, C++ code, or Rust programs directly. At the
 
 For compiled languages (like C, C++, Rust, or Go), a developer must translate their human-readable text code into a compiled binary. When compiling a project with 500 code files, doing this manually file-by-file is impossible. **Build Tools** automate this compilation process, checking dependencies and linking resources together.
 
+> [!NOTE]
+> **Who needs this?** If you write Python, JavaScript, or use Docker, you may never compile code manually. This file is primarily for users working with C, C++, Rust, or Go—or anyone who sees `make` or `cmake` in a project's install instructions and wants to understand what's happening.
+
 ---
 
 ## 🚀 The Compiling & Building Toolkit
@@ -55,3 +58,9 @@ For modern languages, the compiler, dependency downloader, and build manager are
     ```bash
     go build -o server main.go
     ```
+
+---
+
+## 🚀 Next Step
+
+Head over to **[The Unix Philosophy (14 - Unix Philosophy.md)](14%20-%20Unix%20Philosophy.md)** to learn how to construct complex pipelines and automated workflows by combining small, single-purpose tools.

@@ -29,7 +29,12 @@ Virtual Machines solve this but they are heavy and slow, requiring a complete gu
 *   **Example:**
     ```bash
     # Download and run a pre-configured database container (PostgreSQL)
-    docker run --name my-db -e POSTGRES_PASSWORD=secret -d -p 5432:5432 postgres
+    docker run \
+      --name my-db \              # Give this container a custom name so we can refer to it later
+      -e POSTGRES_PASSWORD=secret \  # Set an environment variable (in this case, database password)
+      -d \                        # Run in detached mode (background mode, doesn't block your terminal)
+      -p 5432:5432 \              # Map port 5432 on your host machine to port 5432 inside the container
+      postgres                    # The image to pull and run (official PostgreSQL database image)
     ```
 
 ### 2. Docker Compose
@@ -51,3 +56,9 @@ Virtual Machines solve this but they are heavy and slow, requiring a complete gu
     distrobox create -i docker.io/library/archlinux:latest -n arch-box
     distrobox enter arch-box
     ```
+
+---
+
+## 🚀 Next Step
+
+Head over to **[Build Tools (13 - Build Tools.md)](13%20-%20Build%20Tools.md)** to learn how source code is compiled into executable binaries, and what tools like GCC, make, and cmake do.

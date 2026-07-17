@@ -122,3 +122,9 @@ git push origin main
 ```
 
 > **This 4-line ritual saves your work, secures it in the cloud, and is the foundation of all professional development.** 🚀
+
+---
+
+## 🚀 Next Step
+
+Now that you have configured your development toolkit, head over to **[Decoding the Root Directory (00 - The Filesystem Map.md)](../04%20-%20Root/00%20-%20The%20Filesystem%20Map.md)** to explore the system folders, configuration zones, and layout directories of the Linux operating system.
