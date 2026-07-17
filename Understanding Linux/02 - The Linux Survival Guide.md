@@ -23,30 +23,34 @@ This guide contains the rules, concepts, and self-help recovery procedures you n
 
 Linux has no safeguards. Unlike Windows or macOS, which pop up warnings saying *"Are you sure?"*, Linux assumes you are an expert and will execute *exactly* what you type—even if it destroys the entire system.
 
-### Rule 1: Never paste commands you don't understand
-If you copy a command from a forum or website to solve a bug, check what each word does first. A common internet prank is telling beginners to run:
-```bash
-# WARNING: Do NOT run this!
-rm -rf /
-```
-*   `rm` = remove files
-*   `-r` = recursively (delete folders and their contents)
-*   `-f` = force (don't ask for permission)
-*   `/` = the root folder (your entire hard drive)
-Running this deletes every file on your computer instantly.
+> [!WARNING]
+> ### Rule 1: Never paste commands you don't understand
+> If you copy a command from a forum or website to solve a bug, check what each word does first. A common internet prank is telling beginners to run:
+> ```bash
+> # WARNING: Do NOT run this!
+> rm -rf /
+> ```
+> *   `rm` = remove files
+> *   `-r` = recursively (delete folders and their contents)
+> *   `-f` = force (don't ask for permission)
+> *   `/` = the root folder (your entire hard drive)
+> 
+> Running this deletes every file on your computer instantly.
 
-### Rule 2: Respect the power of `sudo` (Superuser Do)
-`sudo` is the equivalent of "Run as Administrator." It bypasses all system locks.
-*   **Survival Tip:** If a command fails and the system says `Permission denied`, don't immediately prefix it with `sudo`. Ask yourself: *Why is it denied? Am I trying to edit a system file I shouldn't be touching?* 
-*   Only use `sudo` when installing software or editing global configuration files.
+> [!CAUTION]
+> ### Rule 2: Respect the power of `sudo` (Superuser Do)
+> `sudo` is the equivalent of "Run as Administrator." It bypasses all system locks.
+> *   **Survival Tip:** If a command fails and the system says `Permission denied`, don't immediately prefix it with `sudo`. Ask yourself: *Why is it denied? Am I trying to edit a system file I shouldn't be touching?* 
+> *   Only use `sudo` when installing software or editing global configuration files.
 
-### Rule 3: Don't run arbitrary installer scripts
-Many tools tell you to download and run scripts using:
-```bash
-# Be extremely careful with this pattern:
-curl -sSL https://some-website.com/install.sh | sh
-```
-This downloads a shell script from the internet and executes it directly on your CPU. If the website gets hacked, the script could install malicious software. Only run these from verified, trusted open-source vendors.
+> [!WARNING]
+> ### Rule 3: Don't run arbitrary installer scripts
+> Many tools tell you to download and run scripts using:
+> ```bash
+> # Be extremely careful with this pattern:
+> curl -sSL https://some-website.com/install.sh | sh
+> ```
+> This downloads a shell script from the internet and executes it directly on your CPU. If the website gets hacked, the script could install malicious software. Only run these from verified, trusted open-source vendors.
 
 ---
 
@@ -54,14 +58,14 @@ This downloads a shell script from the internet and executes it directly on your
 
 When something goes wrong, you do not need to search Google immediately. Linux has built-in help manuals.
 
-### 1. The `--help` Flag (Quick Cheat Sheet)
+### 💡 1. The `--help` Flag (Quick Cheat Sheet)
 Almost every CLI command has a built-in helper menu showing you its arguments:
 ```bash
 # Print a quick list of options for the grep command
 grep --help
 ```
 
-### 2. The `man` Command (The Official Manual)
+### 📖 2. The `man` Command (The Official Manual)
 If you want to read the full, detailed manual for a tool:
 ```bash
 # Open the system documentation manual page for the cd command
@@ -69,11 +73,11 @@ man cd
 ```
 *(Press `q` to exit the manual reader.)*
 
-### 3. Read the Error Message (It is not a black box)
+### ⚠️ 3. Read the Error Message (It is not a black box)
 When a command fails, Linux prints a message explaining *why*. Read it instead of closing the window:
-*   `Command not found`: The software is not installed, or you misspelled it.
-*   `Permission denied`: You are trying to read or modify a file owned by the administrator. Use `sudo` or check file ownership.
-*   `No such file or directory`: You typed a filename or path that doesn't exist. Check your spelling using `ls`.
+*   ❌ **`Command not found`:** The software is not installed, or you misspelled it.
+*   ❌ **`Permission denied`:** You are trying to read or modify a file owned by the administrator. Use `sudo` or check file ownership.
+*   ❌ **`No such file or directory`:** You typed a filename or path that doesn't exist. Check your spelling using `ls`.
 
 ---
 
@@ -81,12 +85,12 @@ When a command fails, Linux prints a message explaining *why*. Read it instead o
 
 Beginners often get confused about where Linux saves settings because there is no central system Registry app like in Windows.
 
-**In Linux, everything is a text file.** 
+> **In Linux, everything is a text file.** 
 
 User application settings are stored in your home folder (`~/`):
-*   **`~/.config/`**: The standard directory where modern apps (Starship, Neovim, Kitty) store their settings in folders.
-*   **`~/.bashrc` / `~/.zshrc`**: Configuration files that load your personal environment settings every time you open a terminal shell.
-*   **The `$PATH` Variable:** A list of system directory folders. When you type `ls`, your shell searches these folders to locate the executable file. If you break this variable, your terminal won't find basic commands!
+*   📁 **`~/.config/`**: The standard directory where modern apps (Starship, Neovim, Kitty) store their settings in folders.
+*   📄 **`~/.bashrc` / `~/.zshrc`**: Configuration files that load your personal environment settings every time you open a terminal shell.
+*   🗺️ **The `$PATH` Variable:** A list of system directory folders. When you type `ls`, your shell searches these folders to locate the executable file. If you break this variable, your terminal won't find basic commands!
 
 ---
 
@@ -96,7 +100,7 @@ The biggest fear beginners have is: *"I broke something, now I need to wipe my c
 
 **Almost everything can be fixed without reinstalling.** Keep these recovery strategies in mind:
 
-### Scenario A: You broke your shell config (`PATH` is broken)
+### 🛠️ Scenario A: You broke your shell config (`PATH` is broken)
 If you edited `.bashrc` or `.zshrc` and now every basic command (like `ls` or `nano`) says `Command not found`:
 *   *Why it happened:* You accidentally wiped or broke your `$PATH` environment variable.
 *   *The Recovery:* Since the shell doesn't know where commands are, call the absolute path to your editor to open and fix the file:
@@ -105,13 +109,13 @@ If you edited `.bashrc` or `.zshrc` and now every basic command (like `ls` or `n
     ```
     (Or `/usr/bin/nano ~/.zshrc`). Delete the broken lines, save, close the terminal, and reopen it!
 
-### Scenario B: You accidentally deleted a project file
+### 🛠️ Scenario B: You accidentally deleted a project file
 *   *The Recovery:* If you are inside a Git repository, don't close your shell! Restore the file instantly:
     ```bash
     git checkout -- file_name.py
     ```
 
-### Scenario C: The terminal window fails to launch
+### 🛠️ Scenario C: The terminal window fails to launch
 *   *The Recovery:* If you misconfigured your terminal settings or graphics themes and the app crashes on startup, open a standard TTY command-line prompt. Press:
     ```text
     Ctrl + Alt + F3
