@@ -46,46 +46,28 @@ Find your path below and build the recommended toolkit that matches your goals.
 
 ## 📂 Toolkit Guide Breakdown
 
-Explore each layer in detail to understand why these tools exist:
+Explore each section in detail to assemble your workspace:
 
-### 1. [Terminals](01%20-%20Terminals.md)
-Answers: *Is GNOME Terminal different from Kitty? Why does hardware acceleration matter for fonts?*
-*   **GNOME Terminal:** The standard default. Reliable but basic.
-*   **Kitty / Alacritty:** GPU-accelerated terminal emulators. They render fonts and themes instantly and support split windows.
-*   **WezTerm / Ghostty:** Modern, highly customizable emulators written in Rust and Zig.
+### ⚙️ The Core Interface
+*   **01. [Terminals](01%20-%20Terminals.md)** — Explains what terminal emulators are, evaluates standard vs. GPU-accelerated windows (Kitty, Alacritty, WezTerm), and clarifies visual settings.
+*   **02. [Shells](02%20-%20Shells.md)** — Differentiates terminals from shells, compares Bash, Zsh, and Fish, and introduces startup configurations.
+*   **03. [Developer Environment](03%20-%20Developer%20Environment.md)** — A step-by-step assembly guide to connect terminals, shells, fonts, and prompt customizers into a working setup.
+*   **04. [Prompt Customization](04%20-%20Prompt%20Customization.md)** — Styles your prompt with branch indicators and system info specs using Starship and Nerd Fonts.
 
-### 2. [Shells](02%20-%20Shells.md)
-Answers: *What exactly am I typing into? What makes Fish different from Bash?*
-*   **Bash:** The standard operating system default. Found everywhere.
-*   **Zsh:** The standard choice for active developers. Heavily customizable with plugins (auto-completion, syntax highlighting).
-*   **Fish:** Friendly, interactive shell that has autosuggestions and themes enabled right out-of-the-box.
+### 🛠️ Working in the Command Line
+*   **05. [Navigation & Search](05%20-%20Navigation%20%26%20Search.md)** — Speed up directory changes and text searches using `zoxide`, `fzf`, and `ripgrep`.
+*   **06. [Text Processing](06%20-%20Text%20Processing.md)** — Filter and manipulate text output streams using `jq`, `sed`/`awk`, `cut`/`sort`, and `xargs`.
+*   **07. [File Utilities](07%20-%20File%20Utilities.md)** — Inspect and package folders cleanly using `bat`, `eza`, `tree`, and `zip`/`tar`.
+*   **08. [System Monitoring](08%20-%20System%20Monitoring.md)** — Track processor loads, RAM allocation, GPU cores, and storage usage using `htop`, `btop`, `nvtop`, and `ncdu`.
+*   **09. [Terminal Multiplexers](09%20-%20Terminal%20Multiplexers.md)** — Keep tasks running in the background and manage grids using `tmux` or `Zellij`.
 
-### 3. [Prompt Customization](03%20-%20Prompt%20Customization.md)
-Answers: *Why do developers have custom branch indicators and system info prints in their shell?*
-*   **Starship:** A fast, cross-shell prompt customizer that styles your command line.
-*   **Fastfetch:** Prints system hardware and OS specs in a visual block.
-*   **Nerd Fonts:** Special font files containing developer icons (folders, git branches, locks) required to display custom themes.
-
-### 4. [Navigation & Search Tools](04%20-%20Navigation%20Tools.md)
-Answers: *How do I navigate project folders and search code faster?*
-*   **zoxide:** A smarter `cd` command that remembers your frequent folders so you can jump to them instantly.
-*   **fzf:** An interactive fuzzy finder that lets you search and select files from lists.
-*   **ripgrep (`rg`):** An extremely fast alternative to `grep` that searches file contents for keywords in milliseconds.
-
-### 5. [File & Text Utilities](05%20-%20File%20%26%20Text%20Tools.md)
-*   **bat:** A modern alternative to `cat` that adds syntax highlighting and git diff indicators.
-*   **jq:** A command-line processor for JSON data.
-*   **eza:** A modern alternative to `ls` that color-codes file types and permissions.
-
-### 6. [System Monitoring](06%20-%20System%20Monitoring.md)
-*   **htop / btop:** Visually trace CPU, memory, processes, and core health.
-*   **ncdu:** Track down disk usage leaks.
-
-### 7. [Terminal Multiplexers](07%20-%20Terminal%20Multiplexers.md)
-Answers: *How do I run background commands on remote servers and keep tabs open?*
-*   **tmux / Zellij:** Manage multiple terminal tabs and panels inside a single window, and keep background scripts active even if you lose your SSH connection.
+### 🌐 System Specializations
+*   **10. [Networking & Remote Access](10%20-%20Networking%20%26%20Remote%20Access.md)** — Securely connect to cloud servers and transfer files using `ssh`, `scp`/`rsync`, and `curl`/`wget`.
+*   **11. [Package Managers](11%20-%20Package%20Managers.md)** — Understand native distro stores, sandboxed Flatpaks, and user space Homebrew packages.
+*   **12. [Containers](12%20-%20Containers.md)** — Encapsulate applications and prevent runtime conflicts using Docker, Docker Compose, Podman, and Distrobox.
+*   **13. [Build Tools](13%20-%20Build%20Tools.md)** — Compile human-readable source code into machine executables using GCC/Clang and Make/CMake compilers.
 
 ---
 
 > [!TIP]
-> **Next Step:** Go to [01 - Terminals](01%20-%20Terminals.md) or select the specific layer you want to explore first. Remember: only install what solves a problem for you today!
+> **Next Step:** Go to [01 - Terminals](01%20-%20Terminals.md) or follow the step-by-step setup in [03 - Developer Environment](03%20-%20Developer%20Environment.md)! Remember: only install what solves a problem for you today!

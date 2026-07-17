@@ -152,7 +152,7 @@ To clear the path ahead, ask yourself: **"What do I want Linux to help me do?"**
     *   *Your focus:* Desktop environments, basic terminal navigation, customization themes.
 
 > [!NOTE]
-> **Found your path?** Head over to [The Linux Roadmap (Phase 1)](../Building%20Your%20Foundation/01%20-%20The%20Roadmap.md) to find your concrete starting point and route details.
+> **Found your path?** Head over to **[The Linux Survival Guide (File 2)](02%20-%20The%20Linux%20Survival%20Guide.md)** to learn the core terminal safety rules and self-help tools before mapping your career path.
 
 ---
 
