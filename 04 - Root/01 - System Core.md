@@ -11,6 +11,8 @@
 
 When you open a terminal window and type `ls`, `cd`, or `cat`, how does the computer run them? Where are those utilities stored on your disk?
 
+When your computer boots up, how does it know how to interact with the CPU or load basic commands? This is where the core machinery lives—the brain and organs of your operating system.
+
 In Windows, program executables are scattered inside different subdirectories under `C:\Program Files`. In Linux, the core commands are grouped inside standardized system folders so the operating system can run them immediately on boot.
 
 ---

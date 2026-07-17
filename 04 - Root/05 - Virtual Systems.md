@@ -11,6 +11,8 @@
 
 How do terminal tools get hardware metrics? How does `htop` find CPU usage and memory metrics? How does the operating system talk to your physical hard drive or graphics card?
 
+How does the system monitor resources without heavy drivers? Linux represents active memory, processors, and hardware ports as temporary virtual files you can read directly.
+
 In Linux, **everything is a file.** 
 
 Linux handles hardware connections, system information, and active processes by generating **virtual filesystems**. These files do not exist on your physical hard drive; they are generated dynamically in RAM by the kernel. Reading or writing to these virtual files communicates directly with your hardware and system memory.

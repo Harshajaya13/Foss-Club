@@ -11,6 +11,8 @@
 
 In Windows, configuration settings are locked inside a complex binary database called the Registry. If an application crashes, finding the exact error logs requires launching the Event Viewer.
 
+When an application crashes or runs slowly, Linux doesn't show you a generic error code. It documents the exact issue in plain text. This directory is your control room and black box recorder.
+
 Linux does not hide its settings or diagnostics. **Every configuration is a plain text file, and every log is a text file.** 
 
 If you want to configure your network settings, manage database accounts, check user permissions, or debug why a program crashed in the background, you look inside specific system-level configuration directories.

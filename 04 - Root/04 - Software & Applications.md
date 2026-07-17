@@ -11,6 +11,8 @@
 
 In Windows, third-party applications are installed inside `C:\Program Files\Application-Name`. This contains the app's executables, assets, libraries, and logs in one block.
 
+Where does software actually go when you install it? Unlike Windows, which bundles everything in one folder, Linux organizes applications like a library, grouping files by their function.
+
 Linux takes a different approach: **it groups files by type rather than by application.** 
 
 When you install a tool, its executable binary goes into a "binary" folder, its library files go into a "library" folder, and its help manuals go into a "manual" folder. This guide shows you where user applications live and how they are structured.

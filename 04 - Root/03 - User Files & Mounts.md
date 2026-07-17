@@ -11,6 +11,8 @@
 
 If you are used to Windows, your files live under `C:\Users\username`. External USB drives show up as new letters like `D:` or `E:`.
 
+This is your home turf. It’s where your personal code files live, and where external storage drives plug in to become part of the singular Linux tree layout.
+
 In Linux, there are no drive letters. All files—including your documents, projects, and external filesystems—must exist as folders under the single Root directory (`/`). 
 
 This guide details your personal sandbox space and shows you where external storage drives connect to your system.
