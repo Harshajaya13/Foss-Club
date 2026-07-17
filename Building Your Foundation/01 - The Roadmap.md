@@ -1,6 +1,6 @@
 # 🗺️ The Linux Roadmap: Find Your Route
 
-Now that you have read [The Spark (File 1)](file:///home/harsha/projects/foss-club/spark.md) and identified your path, it is time to look at your actual map. 
+Now that you have read [The Spark (File 1)](../Understanding%20Linux/01%20-%20The%20Spark.md) and identified your path, it is time to look at your actual map. 
 
 > [!IMPORTANT]
 > **"Clarity before Complexity. Don't learn everything—learn what matters for your journey."**
@@ -46,7 +46,7 @@ graph TD
 > **No matter your career choice, everyone starts here.** 
 > You must get comfortable navigating the system using text. Spend 1-2 weeks here before branching out.
 >
-> Head over to [Phase 2: Build Your Linux Foundation](file:///home/harsha/projects/foss-club/phase2.md) to start hands-on learning for these common skills.
+> Head over to [Phase 2: Build Your Linux Foundation](02%20-%20The%20Foundation.md) to start hands-on learning for these common skills.
 
 | Skill Area | Core Commands / Concepts | Milestone |
 | :--- | :--- | :--- |

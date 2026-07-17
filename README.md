@@ -56,10 +56,13 @@ graph TD
 
 ```text
 📂 foss-club
-├── spark.md          # File 1: The Spark (Remove fear, choose path)
-├── phase1.md         # File 2: The Roadmap (Career-specific tracks)
-├── phase2.md         # File 3: The Foundation (Hands-on capabilities)
-└── README.md         # Landing page and philosophy
+├── Understanding Linux/
+│   └── 01 - The Spark.md
+├── Building Your Foundation/
+│   ├── 01 - The Roadmap.md
+│   └── 02 - The Foundation.md
+├── Developer Toolkit/    # Guides for Git, Docker, SSH, etc.
+└── README.md             # Welcome page and philosophy
 ```
 
 ---
@@ -68,15 +71,15 @@ graph TD
 
 We've broken this repository into three simple steps designed to build your understanding layer by layer:
 
-1.  **🔥 [The Spark (spark.md)](file:///home/harsha/projects/foss-club/spark.md)** — *Start here.* We answer the common questions beginners actually have (What is Linux? Can I run Windows apps? Why should I switch?) and help you choose your identity.
-2.  **🗺️ [The Roadmap (phase1.md)](file:///home/harsha/projects/foss-club/phase1.md)** — Once you've chosen your path, find your career track here. We tell you exactly what you need to focus on and what you can safely ignore.
-3.  **🧱 [The Foundation (phase2.md)](file:///home/harsha/projects/foss-club/phase2.md)** — The hands-on workbook. Learn the 10 core capabilities (System Control, Navigation, Git, Permissions, Processes) that every Linux user shares.
+1.  **🔥 [The Spark (01 - The Spark.md)](Understanding%20Linux/01%20-%20The%20Spark.md)** — *Start here.* We answer the common questions beginners actually have (What is Linux? Can I run Windows apps? Why should I switch?) and help you choose your identity.
+2.  **🗺️ [The Roadmap (01 - The Roadmap.md)](Building%20Your%20Foundation/01%20-%20The%20Roadmap.md)** — Once you've chosen your path, find your career track here. We tell you exactly what you need to focus on and what you can safely ignore.
+3.  **🧱 [The Foundation (02 - The Foundation.md)](Building%20Your%20Foundation/02%20-%20The%20Foundation.md)** — The hands-on workbook. Learn the 10 core capabilities (System Control, Navigation, Git, Permissions, Processes) that every Linux user shares.
 
 ```mermaid
 graph TD
-    Start["📂 README"] --> Spark["🔥 File 1: The Spark (spark.md)"]
-    Spark --> Roadmap["🗺️ File 2: The Roadmap (phase1.md)"]
-    Roadmap --> Foundation["🧱 File 3: The Foundation (phase2.md)"]
+    Start["📂 README"] --> Spark["🔥 File 1: The Spark"]
+    Spark --> Roadmap["🗺️ File 2: The Roadmap"]
+    Roadmap --> Foundation["🧱 File 3: The Foundation"]
     Foundation --> Specialize{Choose Specialization}
     
     Specialize --> DevOps["Docker / SSH / Ansible"]

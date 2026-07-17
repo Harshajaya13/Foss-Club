@@ -152,7 +152,7 @@ To clear the path ahead, ask yourself: **"What do I want Linux to help me do?"**
     *   *Your focus:* Desktop environments, basic terminal navigation, customization themes.
 
 > [!NOTE]
-> **Found your path?** Head over to [The Linux Roadmap (Phase 1)](file:///home/harsha/projects/foss-club/phase1.md) to find your concrete starting point and route details.
+> **Found your path?** Head over to [The Linux Roadmap (Phase 1)](../Building%20Your%20Foundation/01%20-%20The%20Roadmap.md) to find your concrete starting point and route details.
 
 ---
 

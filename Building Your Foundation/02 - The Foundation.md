@@ -1,6 +1,6 @@
 # 🧱 Phase 2: Build Your Linux Foundation
 
-Now that you have chosen your career path in [The Linux Roadmap (Phase 1)](file:///home/harsha/projects/foss-club/phase1.md) and understood the big picture, it is time to build your hands-on foundation. 
+Now that you have chosen your career path in [The Linux Roadmap (Phase 1)](01%20-%20The%20Roadmap.md) and understood the big picture, it is time to build your hands-on foundation. 
 
 > [!IMPORTANT]
 > **"Clarity before Complexity. Don't learn everything—learn what matters for your journey."**
@@ -305,6 +305,6 @@ These skills are more than enough to start building real software. Everything be
 
 Now that you have built your hands-on Linux foundation, you are ready to split off and specialize.
 
-Go back to **[The Linux Roadmap (Phase 1)](file:///home/harsha/projects/foss-club/phase1.md)**, locate your chosen path under **Stage 2**, and begin learning the career-specific tools (like Docker, CUDA, Window Managers, or Ansible) detailed there.
+Go back to **[The Linux Roadmap (Phase 1)](01%20-%20The%20Roadmap.md)**, locate your chosen path under **Stage 2**, and begin learning the career-specific tools (like Docker, CUDA, Window Managers, or Ansible) detailed there.
 
 Your foundation is solid. Go build something great! 🚀
